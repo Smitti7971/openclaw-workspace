@@ -1,0 +1,54 @@
+# OpenClaw Workspace .gitignore
+
+# Secrets and sensitive data
+*.key
+*.pem
+*.p12
+*.pfx
+.env
+.env.local
+.env.*.local
+*.secret
+*.credentials
+
+# OpenClaw gateway files (managed by OpenClaw)
+/.openclaw/
+/.openclaw.pid
+/openclaw.log
+
+# Node modules (skills may have node_modules in future)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs (except documented ones)
+logs/*.log
+*.log
+
+# Build artifacts
+dist/
+build/
+*.tgz
+*.tar.gz
+
+# Test files
+coverage/
+.nyc_output/

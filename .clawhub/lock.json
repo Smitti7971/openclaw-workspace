@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "skills": {
+    "self-improving-agent": {
+      "version": "1.0.5",
+      "installedAt": 1770138733485
+    },
+    "n8n": {
+      "version": "1.0.2",
+      "installedAt": 1770139540237
+    }
+  }
+}
