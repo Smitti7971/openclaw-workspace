@@ -324,3 +324,8 @@ systemctl status certbot.timer
 - Modern TLS configuration
 - HTTP to HTTPS redirect
 - Browser security indicators working
+
+**Validation:**
+- ✅ User confirmed HTTPS is working (2026-02-06 17:11 UTC)
+- ✅ Both subdomains accessible via HTTPS
+- ✅ Browser security indicators (green lock) visible
